@@ -1,0 +1,59 @@
+.background {
+  viewport-fill: #1c1c1c;
+}
+
+#time{
+  font-size: 40;
+  font-family: Colfax-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 95%;
+  y: 15%;
+  fill: #a4d541;
+}
+
+#day{
+  font-size: 24;
+  font-family: Fabrikat;
+  text-length: 32;
+  x: 95%;
+  y: 22%;
+  text-anchor: end;
+  fill: #399493;	
+}
+
+
+#calorieCounter{
+  font-size: 24;
+  font-family: Fabrikat-Bold;
+  text-length: 32;
+  x: 95%;
+  y: 95%;
+  text-anchor: end;
+  fill: #fa6a63;	
+}
+
+#pokemon-hp{
+  font-size: 24;
+  font-family: Fabrikat-Bold;
+  text-length: 32;
+  x: 5%;
+  y: 87%;
+  fill: #399493;
+  text-anchor:start;
+}
+
+#pokemon-status{
+  font-size: 24;
+  font-family: Fabrikat-Bold;
+  text-length: 32;
+  x: 5%;
+  y: 95%;
+  text-anchor: start;
+  fill: #a4d541;
+}
+
+#pokemon-sprite{
+  x: 35%;
+  y: 35%;
+}

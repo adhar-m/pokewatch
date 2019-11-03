@@ -1,0 +1,21 @@
+<svg class="background">
+  <text id="time" />
+  <text id="day" />
+  
+  <image href="bulbasaur.png" id="pokemon-sprite" pointer-events="visible" width="30%" height="30%">
+    <animate attributeName="x"  begin="click" to="-3%" dur="0.05" />
+    <animate attributeName="x"  begin="click+0.05" to="3%" dur="0.05" />
+    <animate attributeName="x"  begin="click+0.1" to="-3%" dur="0.05" />
+    <animate attributeName="x"  begin="click+0.15" to="0%" dur="0.05" />
+  </image>
+ 
+  <!--
+  <use id="calorieCounter" href="#push-button" height="40">
+    <set href="#text" attributeName="text-buffer" to="Calories: 0    " />
+    <set href="#text" attributeName="fill" to="white" />
+    <set href="#text" attributeName="y" to="12" />
+  </use> -->
+  <text id="calorieCounter" />
+  <text id="pokemon-hp" />
+  <text id="pokemon-status" />
+</svg>
